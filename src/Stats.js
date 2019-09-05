@@ -4,7 +4,7 @@ import Grid from '@material-ui/core/Grid'
 import axios from 'axios'
 
 axios.defaults.baseURL = 'https://cors-anywhere.herokuapp.com/https://api.fortnitetracker.com/v1/'
-axios.defaults.headers.common['TRN-Api-Key'] = 'b617c55a-2d92-4221-b53b-bdc0721aac27'
+axios.defaults.headers.common['TRN-Api-Key'] = MASKED
 
 class Stats extends React.Component {
 
